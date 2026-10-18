@@ -1,0 +1,4 @@
+interface:
+  display_name: "KarmenLoop Follow-up Tracker"
+  short_description: "Follow-up Tracker with reproducible local checks"
+  default_prompt: "Use $karmen-follow-up-tracker to show which follow-ups are due and which should stop."

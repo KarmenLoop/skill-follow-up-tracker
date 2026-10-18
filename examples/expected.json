@@ -1,0 +1,22 @@
+{
+  "due": [
+    {
+      "id": "c1",
+      "name": "Example partner",
+      "status": "waiting",
+      "attempts": 1,
+      "next_check": "2026-10-19T10:00:00Z"
+    }
+  ],
+  "scheduled": [],
+  "stopped": [
+    {
+      "id": "c2",
+      "name": "Former lead",
+      "status": "replied",
+      "attempts": 1,
+      "next_check": "2026-10-18T10:00:00Z",
+      "stop_reason": "replied"
+    }
+  ]
+}
