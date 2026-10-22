@@ -3,7 +3,7 @@ name: karmen-follow-up-tracker
 description: "Surface due follow-ups and stop conditions from an outreach ledger. Use when a user needs to know whom to follow up with and when to stop."
 metadata:
   author: KarmenLoop
-  version: "0.2.0"
+  version: "0.2.1"
 ---
 
 # Follow-up Tracker
