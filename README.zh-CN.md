@@ -4,7 +4,7 @@
 
 把仍在等回复的对话整理清楚：哪些到复查时间、哪些尚未到期，哪些已回复、关闭、过期或达到次数上限，可以停止跟进。
 
-[下载 v0.2.1](https://github.com/KarmenLoop/skill-follow-up-tracker/releases/tag/v0.2.1) · [完整教程](docs/tutorial.zh-CN.md) · [输入参考（英文）](docs/INPUT.md) · [反馈问题](https://github.com/KarmenLoop/skill-follow-up-tracker/issues)
+[下载 v0.2.1](https://github.com/KarmenLoop/skill-follow-up-tracker/releases/tag/v0.2.1) · [完整教程](docs/tutorial.zh-CN.md) · [输入参考](docs/input.zh-CN.md) · [反馈问题](https://github.com/KarmenLoop/skill-follow-up-tracker/issues)
 
 ## 能做什么
 
@@ -41,7 +41,7 @@ next_check 与 now 都要带 UTC 偏移。准确记录 attempts，设置有限�
 
 分别尝试 closed、已过截止时间和次数耗尽的情况，查看 stop_reason，再判断是否需要准备下一次联系。
 
-准备新输入前可查看[字段约定（英文）](docs/INPUT.md)。工具只依赖 Python 标准库，本身不需要模型账号、API 密钥或网络。使用 AI 宿主时，宿主有自己的数据与权限设置。
+准备新输入前可查看[字段约定](docs/input.zh-CN.md)。工具只依赖 Python 标准库，本身不需要模型账号、API 密钥或网络。使用 AI 宿主时，宿主有自己的数据与权限设置。
 
 ## 常见问题
 
@@ -52,7 +52,7 @@ next_check 与 now 都要带 UTC 偏移。准确记录 attempts，设置有限�
 ## 文档与支持
 
 - [下载、安装、配置、练习、升级与卸载](docs/tutorial.zh-CN.md)
-- [输入输出约定](docs/INPUT.md)与[兼容性说明](docs/COMPATIBILITY.md)（英文参考）
+- [输入输出约定](docs/input.zh-CN.md)与[兼容性说明](docs/COMPATIBILITY.md)（英文参考）
 - [更新记录](CHANGELOG.md)、[参与贡献](CONTRIBUTING.md)、[支持](SUPPORT.md)和[安全反馈](SECURITY.md)
 
 ## 许可证
